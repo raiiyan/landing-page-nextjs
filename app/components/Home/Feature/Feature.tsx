@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import { GoWorkflow } from 'react-icons/go'
 import { LuPen } from 'react-icons/lu'
@@ -16,8 +17,9 @@ const Feature = () => {
                 Our product stands out with its high performance, delivering blazing-fast speeds and seamless multitasking
             </p>
 
-            {/* main grid */}}
-            <div className='w-[80%] mx-auto mt-16 grid grid-cols-1 xl:grid-cols-2 items-center'>
+            {/* main grid */}
+            <div className='w-[80%] mx-auto mt-16 grid grid-cols-1 xl:grid-cols-2 items-center
+            gap-10'>
                 {/* inner grid */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
                     {/* 1st box */}
@@ -93,13 +95,15 @@ const Feature = () => {
                         </div>
                         {/* Description */}
                         <p className='mt-3 mb-3 text-gray-700 leading-relaxed'>
-                        Enjoy unlimited access to our platform with no time restrictions. Once you're in, it's yours for life!
+                        Gain permanent access to all tools and resources, ensuring continuous growth and innovation.
+                        <br />
+                        <br />
                         </p>
                     </div>
                 </div>
                 {/* Image content */}
                 <div>
-
+                    <Image src="/images/f1.png" alt='feature' width={700} height={700} />
                 </div>
             </div>
         </div>
