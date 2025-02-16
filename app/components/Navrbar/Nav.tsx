@@ -14,21 +14,23 @@ type Props = {
 const Nav = ({openNav}:Props) => {
 
     const [navbg, setNavbg] = useState(false);
-    useEffect(() => {
-        const handler = () => {
-            if(window.screenY >= 90) setNavbg(true);
-            if(window.scrollY < 90) setNavbg(false);
-        };
-        window.addEventListener('scroll', handler);
 
-        return () => {
-            window.removeEventListener('scroll', handler);
-        };
+    useEffect(() => {
+      const handler = () => {
+        if(window.scrollY >= 90) setNavbg(true);
+        if(window.scrollY < 90) setNavbg(false);
+      };
+      window.addEventListener("scroll", handler);
+
+      return () => 
+        window.removeEventListener("scroll", handler);
     },[]);
 
   return (
     <div
-      className={`transition-all ${navbg?'bg-white shadow-md' : 'fixed'} duration-200 h-[12vh] z-[100]
+      className={`transition-all ${
+        navbg? "bg-white shadow-md" : "fixed"
+      } duration-200 h-[12vh] z-[100]
     fixed w-full`}
     >
       <div
