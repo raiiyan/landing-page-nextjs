@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <div className='pt-16 pb-16 bg-gray-100'>
         <h1 className='text-center text-2xl text-blue-950 font-bold'>
-        Choose The Plan That's Right For You
+        Choose The Plan That&apos;s Right For You
         </h1>
         <p className='mt-3 text-center font-medium text-gray-700
         w-[90%] sm:w-[70%] md:w-[50%] mx-auto'>
