@@ -59,7 +59,7 @@ const About = () => {
                 <div>
                   <p className="font-medium">Jessica</p>
                   <p className="text-gray-700 text-sm">
-                    Web Developer @TechDev
+                    Web Developer @OptiPlan
                   </p>
                 </div>
               </div>

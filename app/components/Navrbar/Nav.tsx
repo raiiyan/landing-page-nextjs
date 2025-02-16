@@ -48,7 +48,7 @@ const Nav = ({openNav}:Props) => {
             className="text-xl hidden sm:block md:text-2xl text-blue-800
             font-bold"
           >
-            TechDev
+            OptiPlan
           </h1>
         </div>
 

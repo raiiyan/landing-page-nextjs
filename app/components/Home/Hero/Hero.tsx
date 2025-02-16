@@ -23,10 +23,10 @@ const Hero = () => {
           leading-[2.5rem] md:leading-[3.5rem]"
           >
             Kickstart, Scale, and Thrive Faster with{" "}
-            <span className="text-rose-700">TechDev</span>
+            <span className="text-rose-700">OptiPlan</span>
           </h1>
           <p className="text-sm sm:text-sm md:text-base font-medium text-gray-700">
-            TechDev is a cutting-edge platform that connects tech professionals,
+            OptiPlan is a cutting-edge platform that connects tech professionals,
             entrepreneurs, and investors. Our mission is to create a seamless,
             collaborative, and inclusive ecosystem where everyone can thrive.
             <br />
