@@ -11,7 +11,8 @@ const About = () => {
         gap-10 items-center"
       >
         {/* Image Content */}
-        <div>
+        <div data-aos="zoom-in" 
+        data-aos-anchor-placement="top-center">
           <Image src="/images/about.png" alt="about" width={600} height={600} />
         </div>
 

@@ -14,19 +14,30 @@ const Pricing = () => {
 
         <div className='w-[80%] mx-auto mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
         gap-10 items-center'>
-            <div>
+            <div
+            data-aos="fade-up" 
+            data-aos-anchor-placement="top-center"
+          >
                 <PriceCard
                  time="3 Month"
                  price="39.99"
                 />
             </div>
-            <div>
+            <div
+            data-aos="fade-up" 
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100"
+            >
                 <PriceCard
                  time="12 Month"
                  price="19.99"
                 />
             </div>
-            <div>
+            <div
+            data-aos="fade-up" 
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+            >
                 <PriceCard
                  time="Life Time"
                  price="9.99"

@@ -23,7 +23,10 @@ const Feature = () => {
                 {/* inner grid */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
                     {/* 1st box */}
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div 
+                    data-aos="fade-right" 
+                    data-aos-anchor-placement="top-center"
+                    className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             {/* icons */}
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center
@@ -43,7 +46,11 @@ const Feature = () => {
                         </p>
                     </div>
                     {/* 2nd box */}
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div 
+                    data-aos="fade-right" 
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="100"
+                    className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             {/* icons */}
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center
@@ -62,7 +69,11 @@ const Feature = () => {
                         </p>
                     </div>
                     {/* 3rd box */}
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div 
+                    data-aos="fade-right" 
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="200"
+                    className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             {/* icons */}
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center
@@ -81,7 +92,11 @@ const Feature = () => {
                         </p>
                     </div>
                     {/* 4th box */}
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div 
+                    data-aos="fade-right" 
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="300"
+                    className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             {/* icons */}
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center
@@ -102,7 +117,10 @@ const Feature = () => {
                     </div>
                 </div>
                 {/* Image content */}
-                <div>
+                <div
+                data-aos="fade-left" 
+                data-aos-anchor-placement="top-center"
+                data-aos-delay="400">
                     <Image src="/images/f1.png" alt='feature' width={700} height={700} />
                 </div>
             </div>

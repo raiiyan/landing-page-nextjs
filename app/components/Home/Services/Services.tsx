@@ -30,7 +30,10 @@ const Services = () => {
             gap-y-12 mt-16"
         >
           {/* 1st box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center
@@ -48,7 +51,11 @@ const Services = () => {
             </div>
           </div>
           {/* 2nd box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center
@@ -66,7 +73,11 @@ const Services = () => {
             </div>
           </div>
           {/* 3rd box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center
@@ -84,7 +95,11 @@ const Services = () => {
             </div>
           </div>
           {/* 4th box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center
@@ -102,7 +117,11 @@ const Services = () => {
             </div>
           </div>
           {/* 5th box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="400"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center
@@ -122,7 +141,11 @@ const Services = () => {
             </div>
           </div>
           {/* 6th box */}
-          <div className="flex items-center space-x-5">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="500"
+          className="flex items-center space-x-5">
             {/* icons */}
             <div
               className="w-14 h-14 rounded-md flex items-center justify-center

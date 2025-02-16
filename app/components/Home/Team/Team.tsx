@@ -62,7 +62,10 @@ const Team = () => {
         </div>
         {/*  image content */}
         <div className="sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:col-span-3">
-          <div className="relative overflow-hidden">
+          <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center"
+          className="relative overflow-hidden">
             <Image
               src="/images/t1.jpg"
               alt="team"
@@ -74,12 +77,17 @@ const Team = () => {
               className="absolute w-full h-[5rem] bottom-0 p-4 bg-rose-500 rounded-lg 
             sm:h-[6rem] md:h-[5rem] lg:h-[6rem]"
             >
-              <p className="text-lg text-white font-bold">Steve Jobs</p>
+              <p className="text-lg text-white font-bold">Ethan Carter
+              </p>
               <p className="text-gray-200">(Founder)</p>
             </div>
           </div>
 
-          <div className="relative overflow-hidden">
+          <div 
+          data-aos="fade-left" 
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+          className="relative overflow-hidden">
             <Image
               src="/images/t2.jpg"
               alt="team"
@@ -91,7 +99,7 @@ const Team = () => {
               className="absolute w-full h-[5rem] bottom-0 p-4 bg-orange-500 rounded-lg 
             sm:h-[6rem] md:h-[5rem] lg:h-[6rem]"
             >
-              <p className="text-lg text-white font-bold">Bill Gates</p>
+              <p className="text-lg text-white font-bold">Sophia Reynolds</p>
               <p className="text-gray-200">(Co-Founder)</p>
             </div>
           </div>
