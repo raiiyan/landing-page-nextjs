@@ -2,7 +2,7 @@ import React from "react";
 import BoxText from "../../Helper/BoxText";
 import { FaBriefcase, FaChess, FaRocket, FaShoppingCart } from "react-icons/fa";
 import { MdOutlineDesignServices } from "react-icons/md";
-import { IoColorPalette, IoColorPaletteOutline } from "react-icons/io5";
+import { IoColorPaletteOutline } from "react-icons/io5";
 
 const Services = () => {
   return (
